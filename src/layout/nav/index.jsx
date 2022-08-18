@@ -1,3 +1,5 @@
+import Button from '../../components/button';
+
 const Nav = () => {
 	return (
 		<header>
@@ -8,15 +10,9 @@ const Nav = () => {
 					</a>
 
 					<div>
-						<a href='/login' class='btn btn-primary m-2'>
-							Login
-						</a>
-						<a href='/signup' class='btn btn-primary m-2'>
-							Signup
-						</a>
-						<a href='/logout' class='btn btn-primary m-2'>
-							Logout
-						</a>
+						<Button title='Login' className='m-2' />
+						<Button title='Signup' className='m-2' />
+						<Button title='Login' className='m-2' />
 					</div>
 				</div>
 			</nav>

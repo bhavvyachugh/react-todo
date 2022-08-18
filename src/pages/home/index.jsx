@@ -1,3 +1,5 @@
+import Button from '../../components/button';
+
 const Home = () => {
 	return (
 		<div class='m-5'>
@@ -29,9 +31,7 @@ const Home = () => {
 					></textarea>
 				</div>
 
-				<button type='submit' class='btn btn-primary'>
-					Submit
-				</button>
+				<Button title='Submit' />
 			</form>
 
 			<ul class='list-group mt-5'>
@@ -64,9 +64,7 @@ const Home = () => {
 							name='description'
 							required
 						/>
-						<button type='submit' class='btn btn-primary'>
-							Update
-						</button>
+						<Button title='Update' />
 					</form>
 				</li>
 			</ul>
