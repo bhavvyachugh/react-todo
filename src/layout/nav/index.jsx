@@ -12,7 +12,7 @@ const Nav = () => {
 					<div>
 						<Button title='Login' className='m-2' />
 						<Button title='Signup' className='m-2' />
-						<Button title='Login' className='m-2' />
+						<Button title='Logout' className='m-2' />
 					</div>
 				</div>
 			</nav>
